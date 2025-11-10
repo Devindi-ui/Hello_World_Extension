@@ -1,12 +1,15 @@
 {
     "manifest_version": 3,
-    "name": "Hello World",
-    "version": "1.0",
-    "description": "A simple hello world browser extension",
-    "permission": ["activeTab", "scripting"],
+    "name": "Back Color Changer",
+    "version": "1.0.0",
+    "description": "A simple tool to change webpages background color ",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
     "action": {
         "default_popup": "popup.html",
-        "default_title": "My Extension"
+        "default_title": "BackColor Changer"
     },
     "icons": {
         "24": "icons/icon24.png",
